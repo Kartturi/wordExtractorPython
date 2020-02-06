@@ -15,7 +15,7 @@ def main():
     with open(path_to_file) as f:
         for line in f:
             cleaned_word = clean_word_from_spaces_commas(line)
-            # get info from web
+            print(cleaned_word)
             # put info into csv file
             # if error make new error file
 
